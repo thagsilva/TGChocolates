@@ -8,7 +8,7 @@ ul {
   list-style-type: none;
   margin-bottom: 10;
   margin-top: 0;
-  font-size: 20px;
+  font-size: 20;
   font-style: italic;
   }
 
@@ -20,19 +20,19 @@ li a {
   text-decoration: none;
   color: #212121;
   display: block;
-  padding: 10px;
+  padding: 10;
   background: none;
 }
 
 li a:hover {
   background-color: rgb(131, 39, 39);
   color: rgb(216, 213, 213);
-  border-radius: 8px;
+  border-radius: 8;
 }
 
 .site-identity {
   display: grid;
-  border-bottom: 3px solid rgb(131, 39, 39);
+  border-bottom: 3 solid rgb(131, 39, 39);
   padding-bottom: 10;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
@@ -43,14 +43,14 @@ li a:hover {
 .site-identity ul {grid-column: 2; margin-right: 10;}
 
 .site-identity img {
-  max-width: 300px;
+  max-width: 300;
   float: left;
   margin-left: 10;
   margin-top: 5;
 }
 
 .logo {
-  width: 320px;
+  width: 320;
 }
 
 .whats {
