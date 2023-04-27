@@ -43,7 +43,7 @@ li a {
 li a:hover {
   background-color: rgb(131, 39, 39);
   color: rgb(216, 213, 213);
-  border-radius: 8;
+  border-radius: 8px;
 }
 
 .site-identity {
