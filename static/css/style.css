@@ -4,12 +4,22 @@
 body {background-color: #f7e2bdb4;}
 * {  box-sizing: border-box; }
 
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+hr {
+  border-top: 3px solid rgb(131, 39, 39);
 }
 
+input[type=checkbox] {
+  display: none;
+  } 
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  }
+
 ul {
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   list-style-type: none;
   margin-bottom: 10;
@@ -38,7 +48,6 @@ li a:hover {
 
 .site-identity {
   display: grid;
-  border-bottom: 3px solid rgb(131, 39, 39);
   padding-bottom: 10;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
@@ -69,4 +78,17 @@ li a:hover {
 
 .cont {
   margin-top: 9;
+}
+
+@media (max-width: 980px) {
+  ul {
+    display: none;
+    position: absolute;
+  }
+  input[type=checkbox]:checked ~ ul {
+    display: left;
+  }
+  .hamburger {
+    display: block;
+  }
 }
