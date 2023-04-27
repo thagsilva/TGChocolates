@@ -80,7 +80,7 @@ li a:hover {
   margin-top: 9;
 }
 
-@media (max-width: 980px) {
+/*@media (max-width: 980px) {
   ul {
     display: none;
     position: absolute;
@@ -91,4 +91,4 @@ li a:hover {
   .hamburger {
     display: block;
   }
-}
+}*/
