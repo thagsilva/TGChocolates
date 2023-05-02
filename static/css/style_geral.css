@@ -10,7 +10,7 @@
 header{
   background-color: rgba(185, 139, 128, 0.39);
   border-radius: 8px;
-  height: 50px;
+  height: 70px;
 }
 
 body {
@@ -43,7 +43,7 @@ hr {
 .site-identity ul {grid-column: 2;}
 
 .site-identity img {
-  max-width: 150;
+  max-width: 200;
   float: center;
   margin-left: 10;
   margin-top: 5;
@@ -63,7 +63,7 @@ ul {
   list-style-type: none;
   margin-bottom: 10;
   margin-top: 0;
-  font-size: 14;
+  font-size: 16;
   font-style: italic;
   }
 
@@ -87,7 +87,7 @@ li a:hover {
 }
 
 .logo{
-  width: 170;
+  width: 200;
 }
 
 .topnav {
