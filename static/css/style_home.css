@@ -11,7 +11,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 70%;
+  max-width: 45%;
   animation: chamar 5s ease 0s 100 forwards;
   border-radius: 20px;
 }

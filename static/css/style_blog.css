@@ -1,11 +1,108 @@
 @font-face {
-    font-family: "MyFont";
-    src: 
-      url("./font/Courgette-Regular.ttf"),
-      url("./font/DancingScript.ttf"),
-      url("./font/Lobster-Regular.ttf"),
-      url("./font/Satisfy-Regular.ttf");
-  }
+  font-family: "MyFont";
+  src: 
+    url("./font/Courgette-Regular.ttf"),
+    url("./font/DancingScript.ttf"),
+    url("./font/Lobster-Regular.ttf"),
+    url("./font/Satisfy-Regular.ttf");
+}
 
-  font-family: 'MyFont';
-  font-style: italic;
+
+h2 {
+font-family: 'MyFont';
+font-style: italic;
+color:rgb(44, 16, 16);
+font-size: 30;
+text-align: center;
+}
+
+h3 {
+font-family: 'MyFont';
+font-style: italic;
+color:rgb(44, 16, 16);
+font-size: 20;
+text-align: center;
+margin-bottom: 5%;
+}
+
+h4 {
+font-family: 'MyFont';
+color:rgb(44, 16, 16);
+font-size: 14;
+text-align: right;
+margin-bottom: 5%;
+}
+
+h5 {
+font-family: 'MyFont';
+color:rgb(44, 16, 16);
+font-size: 14;
+text-align: left;
+}
+
+a{
+color:rgb(44, 16, 16);
+text-decoration: none;
+}
+
+embed {
+opacity: 0.6;
+width: 100%;
+border-radius: 8px;
+padding-top: 5px;
+}
+
+.row {
+padding: 10;
+}
+
+.leftcol {
+float: left;
+width: 65%;
+}
+
+.rightcol {
+float: left;
+width: 35%;
+padding-left: 10px;
+}
+
+.left {
+float: left;
+width: 60%;
+}
+.right {
+float:left;
+width: 40%;
+padding-left: 20px;
+}
+
+.img {
+width: 100%;
+max-height: 50%;
+border-radius: 8px;
+}
+
+.entry-tags h5{
+text-align: center;
+}
+
+[class*="entry-"] {
+background-color: rgba(141, 116, 109, 0.233);
+padding: 20px;
+margin: 10px;
+border-radius: 8px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+@media screen and (max-width: 800px) {
+.leftcol, .rightcol {
+  width: 100%;
+  padding: 0;
+}
+}
