@@ -10,6 +10,7 @@
 header{
   background-color: rgba(185, 139, 128, 0.39);
   border-radius: 8px;
+  height: 50px;
 }
 
 body {
@@ -35,13 +36,14 @@ hr {
   grid-template-columns: 40% 60%;
   grid-template-rows: auto;
   align-items: center;
+  height: 50px;
 }
 
 .site-identity img {grid-column: 1}
 .site-identity ul {grid-column: 2;}
 
 .site-identity img {
-  max-width: 300;
+  max-width: 150;
   float: center;
   margin-left: 10;
   margin-top: 5;
@@ -61,7 +63,7 @@ ul {
   list-style-type: none;
   margin-bottom: 10;
   margin-top: 0;
-  font-size: 18;
+  font-size: 14;
   font-style: italic;
   }
 
