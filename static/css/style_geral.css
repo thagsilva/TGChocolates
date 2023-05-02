@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-new');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+header{
+  background-color: rgba(185, 139, 128, 0.39);
+  border-radius: 8px;
+}
+
+body {
+  background: url("../../images/planodefundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  border-top: 5px solid rgb(131, 39, 39);
+  border-radius: 8px;
+}
+
+.site-identity {
+  display: grid;
+  padding-bottom: 10;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  align-items: center;
+}
+
+.site-identity img {grid-column: 1}
+.site-identity ul {grid-column: 2;}
+
+.site-identity img {
+  max-width: 300;
+  float: center;
+  margin-left: 10;
+  margin-top: 5;
+}
+
+.whats {
+  margin-top: 5;
+}
+
+.inst {
+  margin-right: 20;
+  margin-top: 5;
+}
+
+ul {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  margin-bottom: 10;
+  margin-top: 0;
+  font-size: 18;
+  font-style: italic;
+  }
+
+li {
+  float: right;
+  margin-top: 15;
+}
+
+li a {
+  text-decoration: none;
+  color: #212121;
+  display: block;
+  padding: 10;
+  background: none;
+}
+
+li a:hover {
+  background-color: rgb(131, 39, 39);
+  color: rgb(216, 213, 213);
+  border-radius: 8px;
+}
+
+.topnav {
+  background-color: #33333300;
+  overflow: hidden;
+  border: none;
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .img {
+      width: 350px;
+      height: 200px;
+      margin-left: 15%;
+    }
+    .dot {
+      height: 10px;
+      width: 10px;
+    }
+    .site-identity img {
+      max-width: 200;
+    }
+    .topnav ul {
+    display: none;
+    }
+    .topnav .icon {
+    display: block;
+    color: rgb(44, 16, 16);
+    float: right;
+    margin-right: 20px;
+    }
+    .topnav {
+        display: block;
+    }
+    .topnav.responsive ul {
+        font-size: 14;
+        float: right;
+        text-align: left;
+        display: block;
+        width: 100px;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive ul .cont {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+}

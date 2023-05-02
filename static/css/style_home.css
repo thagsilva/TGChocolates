@@ -1,0 +1,98 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-new');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.img-chamar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  animation: chamar 5s ease 0s 100 forwards;
+  border-radius: 20px;
+}
+
+@keyframes chamar {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-5deg); }
+  20% { transform: rotate(5deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(5deg); }
+  50% { transform: rotate(-5deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-5deg); }
+  80% { transform: rotate(5deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-5deg); }
+}
+
+h2 {
+  font-family: "Brush Script Mt";
+  color:rgb(44, 16, 16);
+  font-size: 42;
+  text-align: center;
+}
+
+.mySlides {
+  display: block;
+}
+.img {
+  vertical-align: middle;
+  width: 70%;
+  height: 70%;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+p, .p {
+  color:rgb(44, 16, 16);
+  text-align: center;
+  font-size: 40;
+  font-family: "Brush Script Mt";
+}
+
+.exp {
+  color:rgb(44, 16, 16);
+  text-align: center;
+  font-size: 24;
+  font-family: "Lucida Handwriting";
+  font-style: italic;
+}
+
+@media screen and (max-width: 750px) {
+  
+  .img-chamar {
+    max-width: 350px;
+  }
+  h2{
+    font-size: 24;
+  }
+  p,.p {
+    font-size: 22;
+  }
+  .exp {
+    font-size: 14;
+  }
+}

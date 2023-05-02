@@ -1,0 +1,62 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-new');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+._hr {
+  border-top: 5px solid rgb(131, 39, 39);
+  border-radius: 8px;
+  margin: 0;
+}
+
+._h3 {
+  font-family: "Brush Script Mt";
+  color:rgb(44, 16, 16);
+  font-size: 30;
+  text-align: center;
+}
+
+._h4 {
+  text-align: center;
+  color:rgb(44, 16, 16);
+  font-size: 18;
+  font-family: "Lucida Handwriting";
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  color:rgb(44, 16, 16);
+  font-size: 20;
+  font-family: "Brush Script Mt";
+  font-style: italic;
+}
+
+.w3-main img {
+  background-color: rgb(248, 248, 248);
+  border-radius: 30pc;
+  max-width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.breve img {
+  background-color: rgb(248, 248, 248);
+  border-radius: 30pc;
+  max-width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imag {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.breve:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
