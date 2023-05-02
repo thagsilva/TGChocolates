@@ -1,6 +1,11 @@
-@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-new');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+@font-face {
+  font-family: "MyFont";
+  src: 
+    url("./font/Courgette-Regular.ttf") format("ttf"),
+    url("./font/DancingScript.ttf") format("ttf"),
+    url("./font/Lobster-Regular.ttf") format("ttf"),
+    url("./font/Satisfy-Regular.ttf") format("ttf");
+}
 
 header{
   background-color: rgba(185, 139, 128, 0.39);
@@ -52,7 +57,7 @@ hr {
 }
 
 ul {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'MyFont';
   list-style-type: none;
   margin-bottom: 10;
   margin-top: 0;
@@ -92,7 +97,6 @@ li a:hover {
     .img {
       width: 350px;
       height: 200px;
-      margin-left: 15%;
     }
     .dot {
       height: 10px;

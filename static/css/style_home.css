@@ -1,5 +1,11 @@
-@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-new');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+  font-family: "MyFont";
+  src: 
+    url("./font/Courgette-Regular.ttf"),
+    url("./font/DancingScript.ttf"),
+    url("./font/Lobster-Regular.ttf"),
+    url("./font/Satisfy-Regular.ttf");
+}
 
 .img-chamar {
   display: block;
@@ -25,26 +31,26 @@
 }
 
 h2 {
-  font-family: "Brush Script Mt";
+  font-family: 'MyFont';
+  font-style: italic;
   color:rgb(44, 16, 16);
-  font-size: 42;
+  font-size: 34;
   text-align: center;
 }
 
 .mySlides {
   display: block;
-  margin: auto auto auto auto;
 }
 .img {
   vertical-align: middle;
   width: 70%;
   height: 70%;
-  margin: auto auto auto auto;
+  margin: 0;
 }
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto auto auto auto;
+  margin: auto;
   text-align: center;
 }
 .dot {
@@ -71,15 +77,16 @@ h2 {
 p, .p {
   color:rgb(44, 16, 16);
   text-align: center;
-  font-size: 40;
-  font-family: "Brush Script Mt";
+  font-size: 32;
+  font-family: 'MyFont';
+  font-style: italic;
 }
 
 .exp {
   color:rgb(44, 16, 16);
   text-align: center;
-  font-size: 24;
-  font-family: "Lucida Handwriting";
+  font-size: 28;
+  font-family: 'MyFont';
   font-style: italic;
 }
 
@@ -89,12 +96,12 @@ p, .p {
     max-width: 350px;
   }
   h2{
-    font-size: 24;
+    font-size: 20;
   }
   p,.p {
-    font-size: 22;
+    font-size: 20;
   }
   .exp {
-    font-size: 14;
+    font-size: 16;
   }
 }

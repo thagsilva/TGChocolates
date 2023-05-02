@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "MyFont";
+    src: 
+      url("./font/Courgette-Regular.ttf"),
+      url("./font/DancingScript.ttf"),
+      url("./font/Lobster-Regular.ttf"),
+      url("./font/Satisfy-Regular.ttf");
+  }
+
+  font-family: 'MyFont';
+  font-style: italic;
