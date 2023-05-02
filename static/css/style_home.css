@@ -33,18 +33,18 @@ h2 {
 
 .mySlides {
   display: block;
-  margin: auto;
+  margin: auto auto auto auto;
 }
 .img {
   vertical-align: middle;
   width: 70%;
   height: 70%;
-  margin: auto;
+  margin: auto auto auto auto;
 }
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: auto auto auto auto;
   text-align: center;
 }
 .dot {
