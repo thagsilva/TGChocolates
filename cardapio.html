@@ -3,36 +3,135 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TG Chocolates | Home</title>
+        <title>TG Chocolates | Cardápio</title>
         <link rel="icon" href="images/icone.png" type="image/icon type">
-        <link rel="stylesheet" href="./static/css/style.css">
+        <link rel="stylesheet" href="./static/css/style_geral.css">
+        <link rel="stylesheet" href="./static/css/style_cardapio.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
     </head>
           
     <header class="site-header">
         <div class="site-identity">
-            <a class="logo" href="./index.html"><img src="images/logo.png"></a>
-            <input type="checkbox" id="checkbox_toggle"/>
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <a class="logo" href="./index.html"><img src="./images/logo.png"></a>
 
-            <ul> 
-                <!-- <li><a href="./carrinho.html"><i class="fa fa-shopping-cart"></i> Carrinho</a></i></li> -->             
-                    <ul>
+            <div class="topnav" id="myTopnav">
+                <ul>             
+                    <ul class="cont">
                         <li class="inst"><a href="https://www.instagram.com/tg.chocolates/">
                                 <i class="fa fa-instagram"></i></a>
                         <li class="whats"><a href="https://api.whatsapp.com/send?phone=5511996490606">
                                 <i class="fa fa-whatsapp"></i></a></li>   
-                        <li class="cont">Contatos:</li>
                     </ul>
-                <li><a href="./cardapio.html" style="margin-top:-11; margin-right: 25;">Cardápio</a></li>
-                <li><a href="./sobre.html" style="margin-top:-11; margin-right: 25;">Blog</a></li>
-            </ul>
+                    
+                    <li><a href="./cardapio.html" style="margin-top:-11; margin-right: 25;">Cardápio</a></li>
+                    <li><a href="./sobre.html" style="margin-top:-11; margin-right: 25;">Blog</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+
         </div>
+
     </header>
-    <hr>
+    <hr class="_hr">
 
     <body>
+        <br/><br/>
 
+            <h3 class="_h3">Nossos Sabores</h3>
+            <h4 class="_h4">Chocolate é uma Poesia Comestível que Derrete na Boca</h4>
+
+            <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px;">
+
+            <div class="w3-row-padding w3-padding-16 w3-center" style="padding:20px" id="food">
+
+                <div class="w3-center" id="food">
+                    <div class="w3-quarter">
+                        <img src="./images/produtos/leite.jpg">
+                        <h4 class="_h4">Leite Ninho</h4>
+                        <p>Carinho de Mãe</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="./images/produtos/coco.jpg">
+                        <h4 class="_h4">Coco</h4>
+                        <p>Serenidade Tropical para Nutrir o Bem-estar</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="./images/produtos/pacoca.jpg">
+                        <h4 class="_h4">Paçoca</h4>
+                        <p>Aventura que Reserva Surpresas e Exige muito Cuidado</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="./images/produtos/avela.jpg">
+                        <h4 class="_h4">Avelã Com ou Sem Alcóol</h4>
+                        <p>Beijo na Alma que Derrete em Felicidade na Boca</p>
+                    </div>
+
+                </div>
+                    
+                <div class="w3-center">
+
+                    <div class="w3-quarter">
+                        <img src="./images/produtos/fv.jpg">
+                        <h4 class="_h4">Frutas Vermelhas Com ou Sem Alcóol</h4>
+                        <p>Doocura, Cremosidade e Muito vermelho para Derreter o Coração</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="./images/produtos/pimenta.jpg">
+                        <h4 class="_h4">Pimenta Alcóolico</h4>
+                        <p>Intensidade que Aquece o Coração e Aguça os Sentidos</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="./images/produtos/cacau.jpg">
+                        <h4 class="_h4">Tradicional Alcóolico</h4>
+                        <p>Não Hesite Diante da Poesia que Vibra em sua Boca</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="./images/produtos/menta.jpg">
+                        <h4 class="_h4">Chocomenta Alcóolico</h4>
+                        <p>Revigorante Frescor de Menta com um Arrebatador Sabor de Chocolate</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+            </div>
+
+            <br><br><br>
+            <h3 class="_h3">Em Breve</h3>
+
+            <div class="breve">
+
+                <div class="imag">
+                    <img src="./images/produtos/cafe.jpg">
+                    <h4 class="_h4">Café</h4>
+                </div>
+
+                <div class="imag">
+                    <img src="./images/produtos/limao.jpg">
+                    <h4 class="_h4">Limão</h4> 
+                </div>
+
+                <div class="imag">
+                    <img src="./images/produtos/maracuja.jpg">
+                    <h4 class="_h4">Maracujá</h4>
+                </div>
+
+            </div>
+
+            <br><br>
+            <hr class="_hr">
+
+        <script src="./static/js/script.js"></script>
     </body>
     
 </html>

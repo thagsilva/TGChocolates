@@ -5,38 +5,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TG Chocolates | Home</title>
         <link rel="icon" href="images/icone.png" type="image/icon type">
-        <link rel="stylesheet" href="./static/css/style.css">
+        <link rel="stylesheet" href="./static/css/style_home.css">
+        <link rel="stylesheet" href="./static/css/style_geral.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
     </head>
           
     <header class="site-header">
         <div class="site-identity">
-            <a class="logo" href="./index.html"><img src="images/logo.png"></a>
-            <input type="checkbox" id="checkbox_toggle"/>
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <a class="logo" href="./index.html"><img src="./images/logo.png"></a>
 
-            <ul> 
-                <!-- <li><a href="./carrinho.html"><i class="fa fa-shopping-cart"></i> Carrinho</a></i></li> -->             
-                    <ul>
+            <div class="topnav" id="myTopnav">
+                <ul>             
+                    <ul class="cont">
                         <li class="inst"><a href="https://www.instagram.com/tg.chocolates/">
                                 <i class="fa fa-instagram"></i></a>
                         <li class="whats"><a href="https://api.whatsapp.com/send?phone=5511996490606">
                                 <i class="fa fa-whatsapp"></i></a></li>   
-                        <li class="cont">Contatos:</li>
                     </ul>
-                <li><a href="./cardapio.html" style="margin-top:-11; margin-right: 25;">Cardápio</a></li>
-                <li><a href="./sobre.html" style="margin-top:-11; margin-right: 25;">Blog</a></li>
-            </ul>
+                    
+                    <li><a href="./cardapio.html" style="margin-top:-11; margin-right: 25;">Cardápio</a></li>
+                    <li><a href="./sobre.html" style="margin-top:-11; margin-right: 25;">Blog</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+
         </div>
+
     </header>
     <hr>
 
     <body>
-        <br/>
-        
+        <br/><br/>
+
             <img src="./images/produtos/cartaz_dia_das_maes.png" class="img-chamar">
 
         <br/><br/>
+
         <h2>Acesse nosso Whatsapp e Faça Já Sua Encomenda!</h2>
 
         <br/><br/>
@@ -44,27 +50,22 @@
 
             <div class="mySlides fade">
                 <img src="./images/produtos/coracao2.png" class="img">
-                <div class="text"></div>
             </div>
 
             <div class="mySlides fade">
               <img src="./images/produtos/trufa.png" class="img">
-              <div class="text"></div>
             </div>
             
             <div class="mySlides fade">
               <img src="./images/produtos/coracao.png" class="img">
-              <div class="text"></div>
             </div>
             
             <div class="mySlides fade">
               <img src="./images/produtos/caixa_mae.png" class="img">
-              <div class="text"></div>
             </div>
 
             <div class="mySlides fade">
                 <img src="./images/produtos/coracao1.png" class="img">
-                <div class="text"></div>
             </div>
 
         </div>
@@ -86,11 +87,13 @@
                 Fazemos Trufas, Corações de Chocolate e Muito mais...<br/>
                 Clique <a href="./cardapio.html" class="p"> Aqui</a> 
                 e Conheça nossos Sabores<br/><br/>
-                <span class="exp">Em Cada Mordida uma Experiência Única! 
-                    <i class="fa-angry"></i>
+                <span class="exp"><i class="fa fa-heart" aria-hidden="true"></i>  Em Cada Mordida uma Experiência Única!  <i class="fa fa-heart" aria-hidden="true"></i>
                 </span>
             </p>
         </div>
+
+        <br/><br/>
+        <hr>
 
         <script src="./static/js/script.js"></script>
          
