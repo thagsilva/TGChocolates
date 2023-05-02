@@ -86,6 +86,10 @@ li a:hover {
   border-radius: 8px;
 }
 
+.logo{
+  width: 170;
+}
+
 .topnav {
   background-color: #33333300;
   overflow: hidden;
@@ -105,7 +109,13 @@ li a:hover {
       width: 10px;
     }
     .site-identity img {
-      max-width: 200;
+      max-width: 100;
+    }
+    .logo{
+      width: 120;
+    }
+    .header {
+      height: 35px;
     }
     .topnav ul {
     display: none;
