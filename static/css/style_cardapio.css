@@ -57,8 +57,8 @@ p {
 
 .produto img {
   border-radius: 30pc;
-  width: 50;
-  height: 50;
+  width: 75;
+  height: 75;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -74,8 +74,8 @@ p {
 
 .breve img {
   border-radius: 30pc;
-  width: 40;
-  height: 40;
+  width: 55;
+  height: 55;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -95,6 +95,11 @@ p {
     grid-template-areas:  
       'left'  
       'right'
+  }
+
+  .chocolate img {
+    width: 60;
+    height: 60;
   }
 
   .produto img {
