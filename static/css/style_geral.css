@@ -120,20 +120,24 @@ li a:hover {
     .topnav ul {
     display: none;
     }
+
     .topnav .icon {
     display: block;
     color: rgb(44, 16, 16);
     float: right;
     margin-right: 20px;
     }
+
     .topnav {
         display: block;
     }
+
     .topnav.responsive ul {
         font-size: 14;
         float: right;
         text-align: left;
         display: block;
+        position: absolute;
         width: 100px;
     }
     .topnav.responsive .icon {
