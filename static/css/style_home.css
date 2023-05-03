@@ -38,6 +38,14 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: 'MyFont';
+  font-style: italic;
+  color:rgb(44, 16, 16);
+  font-size: 30;
+  text-align: center;
+}
+
 .mySlides {
   display: block;
 }
@@ -95,13 +103,19 @@ p, .p {
   .img-chamar {
     max-width: 350px;
   }
-  h2{
+  h2 {
     font-size: 20;
+  }
+  h3 {
+    font-size: 16;
   }
   p,.p {
     font-size: 20;
   }
   .exp {
     font-size: 16;
+  }
+  video {
+    height: 250;
   }
 }
