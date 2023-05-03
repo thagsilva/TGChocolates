@@ -138,22 +138,21 @@ li a:hover {
       float: right;
       text-align: right;
       display: block;
-      width: 85;
-      margin-top: 50;
+      width: 100;
+      margin-top: 70;
       margin-right: 40;
       background-color: rgba(133, 110, 100, 0.397);
       position: relative;
+      border-radius: 18px;
   }
   .topnav.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
   }
-  .topnav.responsive .card, .blog {
-    width: 80;
-    margin-top: 0;
-    padding: 0;
-    text-align: center;
+  .topnav.responsive .blog,.card {
+      margin-top: -20;
+      margin-right: 0;
   }
   .topnav.responsive li a {
       color:aliceblue;
