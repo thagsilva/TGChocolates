@@ -8,7 +8,7 @@
 }
 
 header{
-  background-color: rgba(185, 139, 128, 0.39);
+  background-color: rgba(77, 29, 29, 0.233);
   border-radius: 8px;
   height: 70px;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 hr {
-  border-top: 5px solid rgb(131, 39, 39);
+  border-top: 5px solid rgb(77, 29, 29);
   border-radius: 8px;
 }
 
@@ -43,7 +43,7 @@ hr {
 .site-identity ul {grid-column: 2;}
 
 .site-identity img {
-  max-width: 200;
+  max-width: 230;
   float: center;
   margin-left: 10;
   margin-top: 5;
@@ -51,11 +51,14 @@ hr {
 
 .whats {
   margin-top: 5;
+  font-size: 22;
+  text-decoration: none;
 }
 
 .inst {
   margin-right: 20;
   margin-top: 5;
+  font-size: 22;
 }
 
 ul {
@@ -74,17 +77,20 @@ li {
 
 li a {
   text-decoration: none;
-  color: #212121;
   display: block;
   padding: 10;
   background: none;
+}
+
+li a.card, li a.blog {
+  color: rgb(77, 29, 29);
 }
 
 .card, .blog {
   margin-top: -11;
 }
 li a:hover {
-  background-color: rgb(131, 39, 39);
+  background-color: rgb(77, 29, 29);
   color: rgb(216, 213, 213);
   border-radius: 8px;
 }
@@ -94,7 +100,6 @@ li a:hover {
 }
 
 .topnav {
-  background-color: #33333300;
   overflow: hidden;
   border: none;
 }
@@ -154,7 +159,7 @@ li a:hover {
       margin-top: -20;
       margin-right: 0;
   }
-  .topnav.responsive li a {
+  .topnav.responsive li a.card, li a.blog {
       color:aliceblue;
   }
   .topnav.responsive ul .cont {
