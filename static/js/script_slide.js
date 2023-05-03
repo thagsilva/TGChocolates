@@ -17,12 +17,3 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 3000);
 }
-
-function myFunction() {
-    let x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }

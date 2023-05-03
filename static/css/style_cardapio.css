@@ -11,28 +11,28 @@
 h3 {
   font-family: 'MyFont';
   color:rgb(44, 16, 16);
-  font-size: 22;
+  font-size: 26;
   text-align: center;
 }
 
 h4 {
   text-align: center;
   color:rgb(44, 16, 16);
-  font-size: 18;
+  font-size: 22;
   font-family: 'MyFont';
 }
 
 h5 {
   text-align: center;
   color:rgb(44, 16, 16);
-  font-size: 14;
+  font-size: 18;
   font-family: 'MyFont';
   margin-bottom: 25;
 }
 
 p {
   color:rgb(44, 16, 16);
-  font-size: 14;
+  font-size: 18;
   font-family: 'MyFont';
   max-width: 150;
   text-align: center;
