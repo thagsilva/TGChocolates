@@ -85,10 +85,16 @@ p {
 .breve {
   display: grid;
   grid-template-areas: 
-    "left middle middle middle middle right";
+    "left middle middle right";
   margin-top: 3%;
 }
 
+.sazonal {
+  display: grid;
+  grid-template-areas: 
+    "left right";
+  margin-top: 3%;
+}
 
 @media (max-width: 600px) {
   .collumn  {
